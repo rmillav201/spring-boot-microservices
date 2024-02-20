@@ -1,0 +1,11 @@
+package com.formacionbdi.springboot.app.productos.models.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Tablee(name="productos")
+public class Producto {
+	
+
+}

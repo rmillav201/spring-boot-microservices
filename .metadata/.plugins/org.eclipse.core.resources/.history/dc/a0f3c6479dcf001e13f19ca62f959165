@@ -1,0 +1,15 @@
+package com.formacionbdi.springboot.app.productos.models.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="productos")
+public class Producto {
+	
+	private Long id;
+	private String nombre;
+	private Double monto;
+	private Date createAt;
+
+}
